@@ -48,7 +48,7 @@ GitHub repository
 
 # #2. 곳곳에 값이 변조 된 경우
 
-- 2-1. hxd로 compare 기능을 활용해 두 파일을 비교한다
+- 2-1. hxd로 compare 기능을 활용해 원본 파일과 변조 파일을 비교한다
 
 ![2-1](https://github.com/JoWoonJi/PE/blob/main/img/2-1.use%20hxd%20compare.jpg)
 
