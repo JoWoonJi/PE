@@ -22,19 +22,19 @@ GitHub repository
 
 - 1-1.  원본 메모장이 변조되어 실행이 되지 않는 메모장이 있다. 문제점을 찾아 수정하고 복구해보자. 1번 변조된 메모장이 실행되지 않음을 확인.
 
-![글쓰기 구현 - 글등록 성공시.jpg](PE%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%208693fc506c92432cb42e714eb800c980/%25EA%25B8%2580%25EC%2593%25B0%25EA%25B8%25B0_%25EA%25B5%25AC%25ED%2598%2584_-_%25EA%25B8%2580%25EB%2593%25B1%25EB%25A1%259D_%25EC%2584%25B1%25EA%25B3%25B5%25EC%258B%259C.jpg)
+![1-1](https://github.com/JoWoonJi/PE/blob/main/img/1-1.not%20work.jpg)
 
 ---
 
 - 1-2. PEview 프로그램으로 확인해보고 Hex Editor로 수정한다.  원본파일과 변조파일 크기를 비교해보면 딱 16바이트 차이가 난다. 16바이트는 딱 1줄만큼의 차이다. 불필요하게 삽입된 첫 줄을 삭제해준다.
 
-![게시글 목록출력,글쓰기 버튼 클릭.jpg](PE%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%208693fc506c92432cb42e714eb800c980/%25EA%25B2%258C%25EC%258B%259C%25EA%25B8%2580_%25EB%25AA%25A9%25EB%25A1%259D%25EC%25B6%259C%25EB%25A0%25A5%25EA%25B8%2580%25EC%2593%25B0%25EA%25B8%25B0_%25EB%25B2%2584%25ED%258A%25BC_%25ED%2581%25B4%25EB%25A6%25AD.jpg)
+![2-2](https://github.com/JoWoonJi/PE/blob/main/img/1-2.edit.jpg)
 
 ---
 
 - 1-3. 수정 후 정상적으로 실행이 됨을 확인.
 
-![DB 연결,저장 구현.jpg](PE%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%208693fc506c92432cb42e714eb800c980/DB_%25EC%2597%25B0%25EA%25B2%25B0%25EC%25A0%2580%25EC%259E%25A5_%25EA%25B5%25AC%25ED%2598%2584.jpg)
+![2-3](https://github.com/JoWoonJi/PE/blob/main/img/1-3.solved%20working.jpg)
 
 ---
 
@@ -50,19 +50,19 @@ GitHub repository
 
 - 2-1. hxd로 compare 기능을 활용해 두 파일을 비교한다
 
-![1.SQL Injection test admin 입력하고 로그인해 보기.jpg](PE%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%208693fc506c92432cb42e714eb800c980/1.SQL_Injection_test_admin_%25EC%259E%2585%25EB%25A0%25A5%25ED%2595%2598%25EA%25B3%25A0_%25EB%25A1%259C%25EA%25B7%25B8%25EC%259D%25B8%25ED%2595%25B4_%25EB%25B3%25B4%25EA%25B8%25B0.jpg)
+![2-1](https://github.com/JoWoonJi/PE/blob/main/img/2-1.use%20hxd%20compare.jpg)
 
 ---
 
 - 2-2. difference 기능을 활용하여 값이 다른 부분을 수정해준다.
 
-![2.bool이 뜨며 로그인이 되지 않는다.jpg](PE%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%208693fc506c92432cb42e714eb800c980/2.bool%25EC%259D%25B4_%25EB%259C%25A8%25EB%25A9%25B0_%25EB%25A1%259C%25EA%25B7%25B8%25EC%259D%25B8%25EC%259D%25B4_%25EB%2590%2598%25EC%25A7%2580_%25EC%2595%258A%25EB%258A%2594%25EB%258B%25A4.jpg)
+![2-2](https://github.com/JoWoonJi/PE/blob/main/img/2-2.edit.jpg)
 
 ---
 
 - 2-3. 해결하여 정상적으로 실행이 됨.
 
-![3.SQL injection의 대표적인 구문으로 관리자 계정을 탈취해보자.jpg](PE%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%208693fc506c92432cb42e714eb800c980/3.SQL_injection%25EC%259D%2598_%25EB%258C%2580%25ED%2591%259C%25EC%25A0%2581%25EC%259D%25B8_%25EA%25B5%25AC%25EB%25AC%25B8%25EC%259C%25BC%25EB%25A1%259C_%25EA%25B4%2580%25EB%25A6%25AC%25EC%259E%2590_%25EA%25B3%2584%25EC%25A0%2595%25EC%259D%2584_%25ED%2583%2588%25EC%25B7%25A8%25ED%2595%25B4%25EB%25B3%25B4%25EC%259E%2590.jpg)
+![2-3](https://github.com/JoWoonJi/PE/blob/main/img/2-3.working.jpg)
 
 ---
 
